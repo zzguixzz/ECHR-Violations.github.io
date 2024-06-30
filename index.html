@@ -39,7 +39,7 @@
 	    matrix: { position: { x: 3.0324, y: -5.4637, z: 8.9867 }, lookAt: { x: -10.548, y: -5.2058, z: 13.507 } },
 	    glove: { position: { x: 0.41906, y: -5.3338, z: 9.8258 }, lookAt: { x: -13.402, y: -7.8815, z: 0.49287 } },
 	    golf: { position: { x: 0.41906, y: -5.3338, z: 9.8258 }, lookAt: { x: -13.402, y: -7.8815, z: 0.49287 } },
-	    xbox.001: { position: { x: 0.77684, y: -5.4727, z: 8.2969 }, lookAt: { x: -10.23, y: -6.4363, z: 6.0922 } },
+	    xbox001: { position: { x: 0.77684, y: -5.4727, z: 8.2969 }, lookAt: { x: -10.23, y: -6.4363, z: 6.0922 } },
 	    ezio: { position: { x: 0.77684, y: -5.4727, z: 8.2969 }, lookAt: { x: -8.3319, y: -3.748, z: 5.7219 } },
 	    mustang: { position: { x: 0.46142, y: -5.4721, z: 5.8848 }, lookAt: { x: -8.5784, y: -3.9991, z: 3.6072 } },
 	    countach: { position: { x: 0.46142, y: -5.4721, z: 5.8848 }, lookAt: { x: -8.8921, y: -6.5353, z: 3.7709 } },
@@ -51,7 +51,7 @@
 
         // Load the GLB model
         const loader = new THREE.GLTFLoader();
-        loader.load('/Users/guixlibbrecht/Blender projects/3D Resume Project 3.glb', function (gltf) {
+        loader.load('/Users/guixlibbrecht/Blender projects/3D Resume Project 4.glb', function (gltf) {
             scene.add(gltf.scene);
             renderer.render(scene, camera);
         }, undefined, function (error) {
